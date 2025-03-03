@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import State from './State';
+import React from 'react';
+import State2 from './State2';
+import Reducer from './Reducer';
+import Effect from './Effect';
+import Ref from './Ref';
+import LayoutEffect from './LayoutEffect';
+import ImperativeHandle from './ImperativeHandle';
+import Context from './contexts/Context';
+import Memo from './memo/Memo';
+import Callback from './callback/Callback'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        {/* <State /> */}
+        {/* <State2 /> */}
+        {/* <Reducer className="Reducer center"/>  */}
+        {/* <Effect/> */}
+        <Ref/>
+        {/* <LayoutEffect /> */}
+        {/* <ImperativeHandle /> */}
+        {/* <Context /> */}
+        {/* <Memo /> */}
+        {/* <Callback/> */}
+      </div>
+    </>
   );
 }
 
